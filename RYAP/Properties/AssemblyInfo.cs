@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("RYAP.com")]
-[assembly: AssemblyCopyright("© 2006 to 2016 Marie Anne Chiment.  All Rights Reserved.")]
+[assembly: AssemblyCopyright("© 2004 to 2016 Marie Anne Chiment.  All Rights Reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
