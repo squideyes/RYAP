@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <authors>
+    <author>
+      <email>parker@unknown.com</email>
+      <name>Parker Hensley</name>
+      <city>Ramona</city>
+      <zipCode>CA</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>marie@chiment.com</email>
+      <name>Marie Anne Chiment</name>
+      <city>Drexel Hill</city>
+      <zipCode>PA</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>dm@kraushi-tech.com</email>
+      <name>David Mills</name>
+      <city>Yonkers</city>
+      <zipCode>NY</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>chrismitchell@usermail.com</email>
+      <name>Chris Mitchell</name>
+      <city>El Paso</city>
+      <zipCode>TX</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>andrew@unknown.com</email>
+      <name>Andrew Schneider</name>
+      <city>Webster Groves</city>
+      <zipCode>MO</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>david@unknown.com</email>
+      <name>David Barker</name>
+      <city>O'Fallon</city>
+      <zipCode>IL</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>ittyknapp@gmail.com</email>
+      <name>Kitty Knapp</name>
+      <city>Racine</city>
+      <zipCode>WI</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>barbarachiment@yahoo.com</email>
+      <name>Barbara Chiment</name>
+      <city>Ramona</city>
+      <zipCode>CA</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>kimwylie@earthlink.net</email>
+      <name>Kim Wiley</name>
+      <city>Webster Groves</city>
+      <zipCode>MO</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>jeremy@unknown.com</email>
+      <name>Jeremy Shepherd</name>
+      <city>New York</city>
+      <zipCode>NY</zipCode>
+      <country>US</country>
+    </author>
+    <author>
+      <email>louis@squideyes.com</email>
+      <name>Louis S. Berman</name>
+      <city>Drexel Hill</city>
+      <zipCode>PA</zipCode>
+      <country>US</country>
+    </author> 
+  </authors>
+  <jokes>
+    <joke>
+      <question>How does a pirate go on vacation?</question>
+      <answer>In an &quot;R–V&quot;. (It is only funny when you say &quot;ARGH-VEE&quot; with a scowl and one eye closed like a  pirate would do.)</answer>
+      <email>parker@unknown.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate drop anchor in the bay?</question>
+      <answer>Because he was forbidden to enter the R–bor.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Where did the pirate hide his boat?</question>
+      <answer>In the R–chipaligo.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate turn his boat and make a run for it?</question>
+      <answer>He was being chased by an R–mada.</answer>
+      <email>dm@kraushi-tech.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate run away?</question>
+      <answer>He didn’t want to get R–rested.</answer>
+      <email>dm@kraushi-tech.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the islanders fear the pirate’s Jolly Roger flag?</question>
+      <answer>Because it was an R–binger of doom.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate want to go to the Middle East?</question>
+      <answer>Because he wanted to see R–rabia.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate want to go to R–rabia?</question>
+      <answer>To see the R–rems of women.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate go to Yale?</question>
+      <answer>Because he couldn’t get into R–vard.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate want to go to R–vard?</question>
+      <answer>He wanted to study R–cheology.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>What was his second major?</question>
+      <answer>R–chitecture.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate fail out of college?</question>
+      <answer>Because he had lousy R–rithmetic.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate sail to the North Pole?</question>
+      <answer>He wanted to feel the R–ctic temperatures.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>After the North Pole, where did the pirate sail?</question>
+      <answer>South to R–gentina.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate take a break after his journey?</question>
+      <answer>Because he needed some R–and–R.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why couldn’t the pirate go to the party?</question>
+      <answer>Because he forgot the send in his R–SVP.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Who was the pirate’s favorite Star Wars character?</question>
+      <answer>R–2D2.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate join forces with Jason to seek the golden fleece?</question>
+      <answer>He wanted to be an R–gonaut.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why was the pirate afraid of spiders?</question>
+      <answer>Because he had R–achniphobia.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate study opera?</question>
+      <answer>He wanted to sing an R–ria.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate lose his boat?</question>
+      <answer>Because the R–bitrament was against him.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate have swollen joints?</question>
+      <answer>Because he had R–thritis.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate buy deodorant for his crew?</question>
+      <answer>They had smelly R–mpits.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate save up his coins?</question>
+      <answer>So he could use them in the penny R–cade.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate hate Captain Crook?</question>
+      <answer>Because they were R–ch enemies.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>What was it about Crook that annoyed the pirate?</question>
+      <answer>He was an R–dhearted, R–gumentative, horse’s R–rse.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>How did the Captian Crook try to poison the pirate?</question>
+      <answer>With R–senic.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>How did Crook get the pirate to eat the R–senic?</question>
+      <answer>He hid it in an R–tichoke.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>After the pirate ate the R–senic, how was he saved?</question>
+      <answer>With R–tificial respiration.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Who was the pirate’s favorite folk singer?</question>
+      <answer>R–lo Guthrie.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>How did the pirate accompany himself on the guitar?</question>
+      <answer>With an R–monica.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Was playing the R- monica easy for the pirate?</question>
+      <answer>No. It was an R–duous task.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>What was the pirate’s favorite Elvis song?</question>
+      <answer>&quot;R–U lonesome tonight?&quot;</answer>
+      <email>ChrisMitchell@usermail.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>What was the pirate’s favorite Christmas carol?</question>
+      <answer>"R–k The Herald Angels Sing&quot;.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>How as the pirate conceived?</question>
+      <answer>R–tificial insemination.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Who was the pirate’s favorite television curmudgeon?</question>
+      <answer>R–chie Bunker.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate become a pirate?</question>
+      <answer>Because he was drummed out of the R–my.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>In what branch of the R– my did the pirate serve?</question>
+      <answer>R–tillery.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>If the pirate had stayed in the R–my, where would he have been buried when he died?</question>
+      <answer>R–lington cemetery.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>What kind of animal did the pirate have for a pet?</question>
+      <answer>An R–dvark.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>Where did the pirate find an R–dvark?</question>
+      <answer>In R–ruba.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>How did the pirate study the heavens?</question>
+      <answer>With an R–millary sphere.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-07</addedOn>
+    </joke>
+    <joke>
+      <question>What production did the pirate attend at the Rep?</question>
+      <answer>"Blue R–ange".</answer>
+      <email>louis@squideyes.com</email>
+      <addedOn>2004-02-09</addedOn>
+    </joke>
+    <joke>
+      <question>What did the pirate say when he left Italy?</question>
+      <answer>R–rivederci.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-09</addedOn>
+    </joke>
+    <joke>
+      <question>What did the pirate say when he left France?</question>
+      <answer>R–revoir.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-09</addedOn>
+    </joke>
+    <joke>
+      <question>What did the pirate say when he left Japan?</question>
+      <answer>Domo R–igato.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-09</addedOn>
+    </joke>
+    <joke>
+      <question>Who was the pirate's favorite person in history?</question>
+      <answer>Joan of R–k.</answer>
+      <email>david@unknown.com</email>
+      <addedOn>2004-02-09</addedOn>
+    </joke>
+    <joke>
+      <question>Who was history's first pirate?</question>
+      <answer>Noah; he sailed in an R–k.</answer>
+      <email>david@unknown.com</email>
+      <addedOn>2004-02-09</addedOn>
+    </joke>
+    <joke>
+      <question>What will the final battle that pits pirates against the world be called?</question>
+      <answer>R–mageddon.</answer>
+      <email>david@unknown.com</email>
+      <addedOn>2004-02-09</addedOn>
+    </joke>
+    <joke>
+      <question>Who was the famous Greek mathema-pirate?</question>
+      <answer>Pythagoras, he gave us pi–R–squared.</answer>
+      <email>david@unknown.com</email>
+      <addedOn>2004-02-09</addedOn>
+    </joke>
+    <joke>
+      <question>Where do pirates go to have fun?</question>
+      <answer>To the R–cade!</answer>
+      <email>parker@unknown.com</email>
+      <addedOn>2004-02-10</addedOn>
+    </joke>
+    <joke>
+      <question>What was the name of the pirate's parot?</question>
+      <answer>R–lene.</answer>
+      <email>ittyknapp@gmail.com</email>
+      <addedOn>2004-02-14</addedOn>
+    </joke>
+    <joke>
+      <question>Who is the pirate's favorite American author?</question>
+      <answer>M–R–k Twain</answer>
+      <email>barbarachiment@yahoo.com</email>
+      <addedOn>2004-02-19</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate get kicked out of the barbershop quartet?</question>
+      <answer>He couldn't sing in h–R–mony.</answer>
+      <email>barbarachiment@yahoo.com</email>
+      <addedOn>2004-02-19</addedOn>
+    </joke>
+    <joke>
+      <question>Why can't the pirate eat spicy foods?</question>
+      <answer>He suffers from frequent h–R–tburn.</answer>
+      <email>barbarachiment@yahoo.com</email>
+      <addedOn>2004-02-19</addedOn>
+    </joke>
+    <joke>
+      <question>Where did the pirate go when he visited Eastern Europe?</question>
+      <answer>R–menia.</answer>
+      <email>ChrisMitchell@usermail.com</email>
+      <addedOn>2004-02-20</addedOn>
+    </joke>
+    <joke>
+      <question>What train does the Pirate take when he visits Flushing, Queens?</question>
+      <answer>The R–.</answer>
+      <email>ChrisMitchell@usermail.com</email>
+      <addedOn>2004-02-20</addedOn>
+    </joke>
+    <joke>
+      <question>What's the pirates favorite stop on the N &amp; W line to Queens?</question>
+      <answer>Ditm–R–s Boulevard.</answer>
+      <email>ChrisMitchell@usermail.com</email>
+      <addedOn>2004-02-20</addedOn>
+    </joke>
+    <joke>
+      <question>Why couldn't the young pirate get into the movie?</question>
+      <answer>Because it was rated R–!</answer>
+      <email>kimwylie@earthlink.net</email>
+      <addedOn>2004-02-21</addedOn>
+    </joke>
+    <joke>
+      <question>What state did the "Whitewater" pirates come from?</question>
+      <answer>R–kansas!</answer>
+      <email>kimwylie@earthlink.net</email>
+      <addedOn>2004-02-22</addedOn>
+    </joke>
+    <joke>
+      <question>What do pirates fear most in the sea?</question>
+      <answer>Sh–R–ks!</answer>
+      <email>parker@unknown.com</email>
+      <addedOn>2004-02-24</addedOn>
+    </joke>
+    <joke>
+      <question>Where does the pirate shop for a suit?</question>
+      <answer>At the R–mani Exchange.</answer>
+      <email>jeremy@unknown.com</email>
+      <addedOn>2004-02-24</addedOn>
+    </joke>
+    <joke>
+      <question>Why did he shop there?</question>
+      <answer>Because he could get a ba R–gain.</answer>
+      <email>jeremy@unknown.com</email>
+      <addedOn>2004-02-24</addedOn>
+    </joke>
+    <joke>
+      <question>Where was the pirate born?</question>
+      <answer>R–dsley.</answer>
+      <email>jeremy@unknown.com</email>
+      <addedOn>2004-02-24</addedOn>
+    </joke>
+    <joke>
+      <question>What's the latest brilliant design by pirate costumer Marie Anne Chiment?</question>
+      <answer>Blue/R–ange.</answer>
+      <email>kimwylie@earthlink.net</email>
+      <addedOn>2004-02-24</addedOn>
+    </joke>
+    <joke>
+      <question>Who was the pirate's favorite comedia character?</question>
+      <answer>R–lechino.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>Why did the pirate keep getting his feelings hurt?</question>
+      <answer>Because he wore his R–t on his sleeve.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>Who was the pirate's favorite Musketeer?</question>
+      <answer>D’R–tagnan.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>What's a pirate's favorite holiday?</question>
+      <answer>R–bor Day.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>Quel est le légume préféré d'un pirate?</question>
+      <answer>R–icots verts.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>Which naked wet guy said "Eureka!" to the pirate?</question>
+      <answer>R-chimedes.</answer>
+      <email>louis@squideyes.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>What kind of socks did the pirate like to wear?</question>
+      <answer>R–gyle.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>What's the pirate's second most favorite holiday?</question>
+      <answer>R–mistice Day.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>Where did the pirate keep his guns?</question>
+      <answer>In his R–senal.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>What do you do with a drunken pirate?</question>
+      <answer>You  R–ass and R–angue him.</answer>
+      <email>louis@squideyes.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+    <joke>
+      <question>Why was the pirate's nickname "Moby Dick"?</question>
+      <answer>Cause he carried a big R–poon.</answer>
+      <email>marie@chiment.com</email>
+      <addedOn>2004-02-25</addedOn>
+    </joke>
+  </jokes>
+</data>
