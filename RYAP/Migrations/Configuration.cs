@@ -15,8 +15,8 @@ namespace RYAP.Migrations
 
         protected override void Seed(Entities context)
         {
-            if (!System.Diagnostics.Debugger.IsAttached)
-                System.Diagnostics.Debugger.Launch();
+            //if (!System.Diagnostics.Debugger.IsAttached)
+            //    System.Diagnostics.Debugger.Launch();
 
             var doc = XDocument.Parse(Properties.Resources.Data);
 

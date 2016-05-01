@@ -13,43 +13,32 @@
             <img src="~/Images/Title.jpg" />
             <div style="padding-left:12px; padding-top:19px">
                 <p>
-                    While visiting my family at Christmas, my six year-old nephew, Parker, told me my very
-                    first "Pirate Joke."  Needless to say, the two of us laughed ourselves silly at the punch line.
+                    While visiting my family at Christmas, my six year-old nephew, Parker, asked me
+                    "<b>How does a pirate go on vacation?</b>"
                 </p>
                 <p>
-                    Back home in New York City I shared the joke with my friend, David, over New Year's Brunch.
-                    He likewise laughed himself silly, but more to the point, the two of us couldn't help but riff
-                    upon the theme for hours.
+                    I had no idea, of course, but I was delighted to learn he did so "<b>In an R-V!</b>"
+                    Needless to say, we laughed ourselves silly, scowling like scurvy half-blind pirates while
+                    stretching our "R-'s"in true pirate fashion. "Shiver me timbers, matey."  AARRRRRRGH!
                 </p>
             </div>
         </td>
     </tr>
-    <tr>
+    <tr>        
         <td colspan="2">
             <p>
-                I managed to write a couple of those jokes down but the whole thing shifted into high gear when I had
-                the dubious honor of driving a fifteen foot truck with all of my worldly posessions from NYC to St. Louis.
-                For the uniformed, US 70W doesn't offer much in the way of interesting scenery, so to keep myself occupied
-                during the trek I decided to write down as many pirate jokes as I could.  This website is a compendium of
-                some of those.
+                The following compendium is quite simply more of the same, so do enjoy.  Also, if you have any 
+                pirate jokes of your own, be sure to click <a href="Contribute">Contribute</a> to share them.
             </p>
-            <p>
-                I trust that some of the following will make you laugh. If you have any pirate jokes of your own,
-                please click on this <a href="Contribute">Contribute</a> link to share them.
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2">
-                @foreach (var joke in ViewBag.OnePageOfJokes)
-                {
-                    <hr/>
-                    <p>
-                        <b>Q:</b>&nbsp;@joke.Question<br />
-                        <b>A:</b>&nbsp;@joke.Answer<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;By @joke.Author.Name, @joke.Author.Location&nbsp;--
-                    </p>
-                }
+            @foreach (var joke in ViewBag.OnePageOfJokes)
+            {
+                <hr />
+                <p>
+                    <b>Q:</b>&nbsp;@joke.Question<br />
+                    <b>A:</b>&nbsp;@joke.Answer<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;By @joke.Author.Name, @joke.Author.Location&nbsp;--
+                </p>
+            }
             <div style="text-align:center">
                 @Html.PagedListPager((IPagedList)ViewBag.OnePageOfJokes, page => Url.Action("Index", new { page }))
             </div>

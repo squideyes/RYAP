@@ -13,7 +13,7 @@ namespace RYAP.Controllers
         {
             var pageNumber = page ?? 1;
 
-            var jokes = db.Jokes.OrderBy(j => j.AddedOn);
+            var jokes = db.Jokes.OrderBy(ks => ks.AddedOn);
 
             var onePageOfJokes = jokes.ToPagedList(pageNumber, 10);
 
@@ -25,6 +25,13 @@ namespace RYAP.Controllers
         public ActionResult Contribute()
         {
             ViewBag.Message = "Your contribution page.";
+
+            return View();
+        }
+
+        public ActionResult About()
+        {
+            ViewBag.Message = "Your about page.";
 
             return View();
         }
