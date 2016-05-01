@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RYAP", "RYAP\RYAP.csproj", "{33569DC4-CC54-4CC5-8633-858A040C1984}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RYAP.Website", "RYAP\RYAP.Website.csproj", "{33569DC4-CC54-4CC5-8633-858A040C1984}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RYAP.WebJob", "Source\RYAP.WebJob\RYAP.WebJob.csproj", "{B16D42FB-A90C-4937-B8FF-50C083EA40CC}"
 EndProject
