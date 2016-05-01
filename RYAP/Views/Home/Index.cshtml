@@ -1,6 +1,9 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+@using PagedList.Mvc;
+@using PagedList;
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
 <table class="header-table" cellpadding="0" cellspacing="0">
     <tr valign="top">
         <td style="width: 244px">
@@ -14,8 +17,8 @@
                     first "Pirate Joke."  Needless to say, the two of us laughed ourselves silly at the punch line.
                 </p>
                 <p>
-                    Back home in New York City I shared the joke with my friend, David, over New Year's Brunch. 
-                    He likewise laughed himself silly, but more to the point, the two of us couldn't help but riff 
+                    Back home in New York City I shared the joke with my friend, David, over New Year's Brunch.
+                    He likewise laughed himself silly, but more to the point, the two of us couldn't help but riff
                     upon the theme for hours.
                 </p>
             </div>
@@ -24,21 +27,32 @@
     <tr>
         <td colspan="2">
             <p>
-                I managed to write a couple of those jokes down but the whole thing shifted into high gear when I had 
-                the dubious honor of driving a fifteen foot truck with all of my worldly posessions from NYC to St. Louis.  
-                For the uniformed, US 70W doesn't offer much in the way of interesting scenery, so to keep myself occupied 
-                during the trek I decided to write down as many pirate jokes as I could.  This website is a compendium of 
+                I managed to write a couple of those jokes down but the whole thing shifted into high gear when I had
+                the dubious honor of driving a fifteen foot truck with all of my worldly posessions from NYC to St. Louis.
+                For the uniformed, US 70W doesn't offer much in the way of interesting scenery, so to keep myself occupied
+                during the trek I decided to write down as many pirate jokes as I could.  This website is a compendium of
                 some of those.
             </p>
             <p>
-                I trust that some of the following will make you laugh. BTW, if you have any pirate jokes of your own,
-                please click on the <a href="Contribute">Contribute</a> link, above to share them.
+                I trust that some of the following will make you laugh. If you have any pirate jokes of your own,
+                please click on the <a href="Contribute">Contribute</a> link, above, to share them.
             </p>
         </td>
     </tr>
     <tr>
         <td colspan="2">
-
+                @foreach (var joke in ViewBag.OnePageOfJokes)
+                {
+                    <hr/>
+                    <p>
+                        <b>Q:</b>&nbsp;@joke.Question<br />
+                        <b>A:</b>&nbsp;@joke.Answer<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;By @joke.Author.Name, @joke.Author.Location&nbsp;--
+                    </p>
+                }
+            <div style="text-align:center">
+                @Html.PagedListPager((IPagedList)ViewBag.OnePageOfJokes, page => Url.Action("Index", new { page }))
+            </div>
         </td>
     </tr>
 </table>
