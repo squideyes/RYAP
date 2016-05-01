@@ -1,7 +1,7 @@
-﻿using RYAP.Models;
+﻿using PagedList;
+using RYAP.Models;
 using System.Linq;
 using System.Web.Mvc;
-using PagedList;
 
 namespace RYAP.Controllers
 {
