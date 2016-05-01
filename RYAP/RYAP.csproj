@@ -172,6 +172,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\AuthorStatus.cs" />
+    <Compile Include="Models\ContributeViewModel.cs" />
     <Compile Include="Models\Entities.cs" />
     <Compile Include="Models\Joke.cs" />
     <Compile Include="Models\JokeStatus.cs" />

@@ -29,18 +29,13 @@ namespace RYAP.Controllers
             return View();
         }
 
-        public ActionResult Contribute()
+        public ActionResult Contribute(ContributeViewModel model)
         {
-            // get rid of this!!!!!!!!!!!!!!!!!!!!
-            ViewBag.Message = "Your contribution page.";
-
-            return View();
+            return View(model);
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your about page.";
-
             return View();
         }
     }

@@ -14,17 +14,18 @@ namespace RYAP.Models
         public int Id { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [EmailAddress]
+        [StringLength(50, MinimumLength = 6)]
         [Index("IX_Author_Email", IsUnique = true)]
         public string Email { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(50, MinimumLength = 5)]
         [Index("IX_Author_Name", IsUnique = true)]
         public string Name { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(50, MinimumLength = 10)]
         public string Location { get; set; }
 
         [Required]

@@ -29,3 +29,11 @@ textarea {
     font-size: 16px;
     width: 650px;
 }
+
+.contribute-label {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 80px;
+}
