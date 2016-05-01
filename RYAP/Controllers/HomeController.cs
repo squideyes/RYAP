@@ -31,7 +31,18 @@ namespace RYAP.Controllers
 
         public ActionResult Contribute(ContributeViewModel model)
         {
-            return View(model);
+            if (ModelState.IsValid)
+            {
+
+
+
+
+                return View(model);
+            }
+            else
+            {
+                return View(new ContributeViewModel());
+            }
         }
 
         public ActionResult About()

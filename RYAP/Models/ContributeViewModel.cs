@@ -4,10 +4,9 @@ namespace RYAP.Models
 {
     public class ContributeViewModel
     {
-        [Required]
-        [EmailAddress]
-        [StringLength(50, MinimumLength = 6,
-            ErrorMessage = "A valid email address must be supplied!")]
+        [Required(ErrorMessage = "A valid email must be supplied.")]
+        [EmailAddress(ErrorMessage ="The email address is invalid.")]
+        [StringLength(50, MinimumLength = 6)]
         public string Email { get; set; }
 
         [Required]

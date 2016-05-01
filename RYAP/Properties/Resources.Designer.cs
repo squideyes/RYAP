@@ -65,22 +65,22 @@ namespace RYAP.Properties {
         ///&lt;data&gt;
         ///  &lt;authors&gt;
         ///    &lt;author&gt;
-        ///      &lt;author&gt;Parker Hensley&lt;/author&gt;
         ///      &lt;email&gt;parker@unknown.com&lt;/email&gt;
+        ///      &lt;name&gt;Parker Hensley&lt;/name&gt;
         ///      &lt;city&gt;Ramona&lt;/city&gt;
-        ///      &lt;province&gt;CA&lt;/province&gt;
+        ///      &lt;zipCode&gt;CA&lt;/zipCode&gt;
         ///      &lt;country&gt;US&lt;/country&gt;
         ///    &lt;/author&gt;
         ///    &lt;author&gt;
-        ///      &lt;author&gt;Marie Anne Chiment&lt;/author&gt;
         ///      &lt;email&gt;marie@chiment.com&lt;/email&gt;
-        ///      &lt;city&gt;Wynnewood&lt;/city&gt;
-        ///      &lt;province&gt;PA&lt;/province&gt;
+        ///      &lt;name&gt;Marie Anne Chiment&lt;/name&gt;
+        ///      &lt;city&gt;Drexel Hill&lt;/city&gt;
+        ///      &lt;zipCode&gt;PA&lt;/zipCode&gt;
         ///      &lt;country&gt;US&lt;/country&gt;
         ///    &lt;/author&gt;
         ///    &lt;author&gt;
-        ///      &lt;author&gt;David Mills&lt;/author&gt;
-        ///   [rest of string was truncated]&quot;;.
+        ///      &lt;email&gt;dm@kraushi-tech.com&lt;/email&gt;
+        ///       [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data {
             get {
