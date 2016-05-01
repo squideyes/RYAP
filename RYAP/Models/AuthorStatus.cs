@@ -1,4 +1,4 @@
-﻿namespace RYAP.Models
+﻿namespace RYAP.Website.Models
 {
     public enum AuthorStatus
     {

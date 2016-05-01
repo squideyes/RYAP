@@ -1,4 +1,4 @@
-namespace RYAP.Migrations
+namespace RYAP.Website.Migrations
 {
     using Models;
     using System.Data.Entity.Migrations;

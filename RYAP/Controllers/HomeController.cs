@@ -1,12 +1,12 @@
 ﻿using PagedList;
-using RYAP.Models;
+using RYAP.Website.Models;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Web.Mvc;
 
-namespace RYAP.Controllers
+namespace RYAP.Website.Controllers
 {
     public class HomeController : Controller
     {

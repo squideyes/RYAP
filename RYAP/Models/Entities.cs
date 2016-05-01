@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace RYAP.Models
+namespace RYAP.Website.Models
 {
     public class Entities : DbContext
     {

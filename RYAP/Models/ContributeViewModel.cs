@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RYAP.Models
+namespace RYAP.Website.Models
 {
     public class ContributeViewModel
     {

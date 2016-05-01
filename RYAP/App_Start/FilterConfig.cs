@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace RYAP
+namespace RYAP.Website
 {
     public class FilterConfig
     {
