@@ -28,14 +28,6 @@ namespace RYAP.Models
         public DateTime UpdatedOn { get; set; }
 
         [Required]
-        [Range(0, int.MaxValue)]
-        public int TotalVotes { get; set; }
-
-        [Required]
-        [Range(0, int.MaxValue)]
-        public int TotalStars { get; set; }
-
-        [Required]
         public JokeStatus Status { get; set; }
 
         public virtual Author Author { get; set; }

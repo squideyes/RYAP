@@ -1,5 +1,8 @@
 ﻿using PagedList;
 using RYAP.Models;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web.Mvc;
 
@@ -13,9 +16,13 @@ namespace RYAP.Controllers
         {
             var pageNumber = page ?? 1;
 
-            var jokes = db.Jokes.OrderBy(ks => ks.AddedOn);
+            if(Session["Jokes"] == null)
+                Session["Jokes"] = db.Jokes.OrderBy(ks => Guid.NewGuid()).ToList();
 
-            var onePageOfJokes = jokes.ToPagedList(pageNumber, 10);
+            var jokes = ((List<Joke>)Session["Jokes"]).AsQueryable();
+
+            var onePageOfJokes = jokes.ToPagedList(pageNumber, 
+                int.Parse(ConfigurationManager.AppSettings["JokesPerPage"]));
 
             ViewBag.OnePageOfJokes = onePageOfJokes;
 
@@ -24,6 +31,7 @@ namespace RYAP.Controllers
 
         public ActionResult Contribute()
         {
+            // get rid of this!!!!!!!!!!!!!!!!!!!!
             ViewBag.Message = "Your contribution page.";
 
             return View();

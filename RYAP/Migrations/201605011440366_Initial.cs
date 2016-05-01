@@ -31,8 +31,6 @@ namespace RYAP.Migrations
                         Answer = c.String(nullable: false, maxLength: 200, unicode: false),
                         AddedOn = c.DateTime(nullable: false),
                         UpdatedOn = c.DateTime(nullable: false),
-                        TotalVotes = c.Int(nullable: false),
-                        TotalStars = c.Int(nullable: false),
                         Status = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)

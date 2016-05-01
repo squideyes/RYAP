@@ -13,7 +13,7 @@ namespace RYAP.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201604302305223_Initial"; }
+            get { return "201605011440366_Initial"; }
         }
         
         string IMigrationMetadata.Source
