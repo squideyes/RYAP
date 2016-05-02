@@ -1,4 +1,7 @@
-﻿using PagedList;
+﻿using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Queue;
+using Newtonsoft.Json;
+using PagedList;
 using RYAP.Website.Models;
 using System;
 using System.Collections.Generic;
@@ -33,9 +36,23 @@ namespace RYAP.Website.Controllers
         {
             if (ModelState.IsValid)
             {
+                var storageAccount = CloudStorageAccount.Parse(
+                    ConfigurationManager.AppSettings["StorageConnString"]);
 
+                var queueClient = storageAccount.CreateCloudQueueClient();
 
+                var queue = queueClient.GetQueueReference("contributions");
 
+                queue.CreateIfNotExists();
+
+                var json = JsonConvert.SerializeObject(model);
+
+                var message = new CloudQueueMessage(json);
+
+                queue.AddMessage(message);
+
+                model.Question = null;
+                model.Answer = null;
 
                 return View(model);
             }
